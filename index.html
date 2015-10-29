@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Impress Tutorial</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+		<link href="styles.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="impress">
+			<div class="no-support-message">
+				Your browser doesn't support impress.js.  Try Chrome or Safari.
+			</div>
+			
+			<div class="step" data-x="0" data-y="0">
+				Den spennende verden av .NET, API og hjelpeverktøy
+				<br>
+				<p> <em>Men hvorfor skal du bry deg? </em></p>
+			</div>
+			
+			<div class="step" data-x="500" data-y="400" data-rotate="-90">
+				Ting du kan hive på CN'en etter denne presentasjonen:
+				<br>
+				<br>
+				Swagger <img class="resize" src="200px-Checkbox.svg.png">
+				<br>
+				JMeter <img class="resize" src="200px-Checkbox.svg.png">
+			</div>
+
+			<div class="step" data-x="600" data-y="-300">
+					<em>Hva er egentlig et REST API?</em>
+					<br>
+					<br>
+					En arkitetkur basert på HTTP requests med visse grunnleggende krav:
+					<br>
+					<br>
+					Level 0: Kun en HTTP metode, en URI
+					<br>
+					Level 1: Flere URI. feks. api/books og api/authors
+					<br>
+					Level 2: Flere HTTP verb. POST, PUT, GET, DELETE.
+					<br>
+					Level 3:Bruk av HATEOS, dvs returner tilgjengelige operasjoner.
+
+
+			</div>
+
+			
+			
+			
+			<div class="step" data-x="500" data-y="-600" data-scale="0.5" data-rotate="90">
+				En sykt spennende slide
+				<br>
+				<img class="resize2" src ="CaptureAPI.PNG">
+			</div>
+			
+			<div class="step" data-x="300" data-y="-800" data-rotate="90">
+				Swagger: Ett browser "plug-in" for å teste ett API <img class="resize" src="swagger.png">
+				<br>
+
+				JMeter: Ett testingsverktøy, kan f.eks brukes til stresstesting <img class="resize" src="Apache_Jmeter.png">
+			</div>
+			
+			<div class="step" data-x="-100" data-y="-800" data-rotate-x="60" data-rotate-y="60" data-rotate-z="30">
+				<bold>La oss kode:<bold>
+				<br>
+				.NET REST API som konsumeres av en nettside med hjelp av Anlaugular 
+			</div>
+			
+			<div id="yoda" class="step" data-x="-2000" data-y="-900" data-rotate-x="30" data-rotate-y="-60" data-rotate-z="90" data-scale="4">
+				Questions have you?
+			</div>
+
+
+			
+		</div>
+		<script type="text/javascript" src="impress.js"></script>
+		<!--
+			call `impress().init()` function to initialize impress.js presentation.
+		-->
+		<script>impress().init();</script>
+	</body>
+</html>
